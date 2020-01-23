@@ -1,0 +1,17 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "sass",
+  "main": "index.js",
+  "scripts": {
+    "compile_sass": "node-sass sass/style.scss css/style.css -w"
+  },
+  "keywords": [
+    "n"
+  ],
+  "author": "haayoade",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
